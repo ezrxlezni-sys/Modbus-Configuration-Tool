@@ -52,16 +52,15 @@ This allows users to quickly determine the correct communication parameters.
 2. Open the `main.py` file.
 3. Run the script.
 
-Example output:
-
-Testing Baudrate: 9600
-Trying Slave ID: 1
-No Response
-Trying Slave ID: 2
-FOUND device!
-Baudrate: 9600
-Slave ID: 2
-Data: (543,)
+**Example output:**
+**Testing Baudrate: 9600**
+**Trying Slave ID: 1**
+**No Response**
+**Trying Slave ID: 2**
+**FOUND device!**
+**Baudrate: 9600**
+**Slave ID: 2**
+**Data: (543,)**
 
 ---
 

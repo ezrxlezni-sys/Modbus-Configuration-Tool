@@ -1,6 +1,6 @@
 # Modbus Configuration Tool
 
-A Python-based Modbus Configuration Tool designed for **IRIV PiControl** and **IRIV IO Controller (IOC)**.  
+A Python-based Modbus Configuration Tool designed for **IRIV IO Controller (IOC)**.  
 This tool helps users **scan and identify the correct Modbus Slave ID and baudrate** of connected Modbus RTU devices.
 
 It is useful when the communication parameters of a device are **unknown or misconfigured**, allowing engineers and students to quickly troubleshoot Modbus connections.

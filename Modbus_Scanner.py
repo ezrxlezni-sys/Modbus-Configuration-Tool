@@ -15,14 +15,12 @@ except:
 # -------------------------
 # CONFIGURATION
 # -------------------------
-
 baudrates = [9600, 4800]
 slave_ids = range(1, 10)
 
 # -------------------------
 # MODBUS SCAN FUNCTION
 # -------------------------
-
 def scan_modbus():
 
     found_devices = []
@@ -44,7 +42,6 @@ def scan_modbus():
             )
 
             for slave in slave_ids:
-
                 try:
                     print(f"  Trying Slave ID: {slave}")
 
@@ -129,6 +126,4 @@ def scan_modbus():
 
     print("=========================\n")
 
-
-# Run
 scan_modbus()
